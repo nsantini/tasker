@@ -14,8 +14,11 @@ var path = {
 };
 
 gulp.task('copy', function(){
-  gulp.src(path.HTML)
-    .pipe(gulp.dest(path.DEST));
+    gulp.src(path.HTML)
+        .pipe(gulp.dest(path.DEST));
+
+    gulp.src('src/img/**/*')
+        .pipe(gulp.dest(path.DEST + '/img'));
 });
 
 gulp.task('watch', function() {

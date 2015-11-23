@@ -10,9 +10,12 @@ var Header = React.createClass({
             <div className="jumbotron text-center">
                 <h1>Tasker</h1>
                 <p className="lead">
-                    The very simple task manager. &nbsp;
+                    The very simple task manager.
+                </p>
+                <p>
                     <a href="https://github.com/nsantini/tasker" target="_blank">
-                        <span class="username">source</span>
+                        <img src='img/GitHub-Mark-32px.png' style={{width: 20 + 'px'}}/>
+                        <span class="username">&nbsp;source</span>
                     </a>
                 </p>
                 <TextInput

@@ -1,6 +1,8 @@
-# Today
+# Tasker
 
-A TODO app with [React](https://facebook.github.io/react/) and [Flux](https://facebook.github.io/flux/) just for Today
+A simple Task Management app with [React](https://facebook.github.io/react/) and [Flux](https://facebook.github.io/flux/) just for the browser.
+
+All tasks get stored in the localStorage of the browser.
 
 ## Running
 
@@ -28,3 +30,7 @@ The implementation uses:
 - [Reactify](https://www.npmjs.com/package/reactify) to transform JSX into JS
 - [Watchify](https://github.com/substack/watchify) to listen to changes in the code and re-run the build process
 - [Jest](https://facebook.github.io/jest/) for unit testing
+
+## Contributing
+
+To contribute, please fork this repo and then create a pull request when ready.
